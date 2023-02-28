@@ -267,7 +267,25 @@
   z-index: 0;
   animation: scale-three 60s linear infinite;
   animation-direction: alternate;
+
   
+  
+}
+
+.image-ten {
+  position: absolute;
+  transform: scale(1.6);
+  top: 15%;
+  right: -10%;
+  max-width: 100vw;
+  max-height: 100vh;
+  object-position: center;
+  object-fit: contain;
+  opacity: 1;
+  overflow: visible;
+  z-index: 1;
+  animation: scale-three 60s linear infinite;
+  animation-direction: alternate;
 }
 .image-zero {
   position: absolute;
